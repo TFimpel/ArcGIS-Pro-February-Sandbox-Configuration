@@ -1,0 +1,78 @@
+﻿<ArcGIS defaultAssembly="SimpleConfiguration.dll" defaultNamespace="SimpleConfiguration" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{43ea84e4-7b44-4d76-80ba-44095ba768b4}" version="1.0" desktopVersion="2.1.10257">
+    <Name>SimpleConfiguration</Name>
+    <Description>SimpleConfiguration description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>fimpe</Author>
+    <Company>Acme</Company>
+    <Date>2/11/2018 10:35:29 PM, 2018</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <Configuration>
+    <ConfigurationManager className="ConfigurationManager1" />
+  </Configuration>
+  <modules>
+    <insertModule id="SimpleConfiguration_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <tab id="MyConfiguration_Tab1" caption="Test UI Tab" keytip="Z0">
+          <group refID="MyConfiguration_Group4"></group>
+
+          <group refID="MyConfiguration_Group2"></group>
+          <group refID="MyConfiguration_Group3"></group>
+          <group refID="MyConfiguration_Group1"></group>
+        </tab>
+      </tabs>
+      <groups>
+        <group id="MyConfiguration_Group4" caption="Select Highway" appearsOnAddInTab="false" keytip="Z3">
+          <button refID="SimpleConfiguration_select" size="large" />
+        </group>
+        <group id="MyConfiguration_Group3" caption="60 Mile Buffer" appearsOnAddInTab="false" keytip="Z3">
+          <button refID="SimpleConfiguration_Button3" size="large" />
+          <button refID="SimpleConfiguration_Button3Truncate" size="large" />
+          <button refID="esri_core_CloseProjectButton" size="middle" />
+        </group>
+        <group id="MyConfiguration_Group2" caption="100 Mile Buffer" appearsOnAddInTab="false" keytip="Z2">
+          <button refID="SimpleConfiguration_Button2" size="large" />
+          <button refID="SimpleConfiguration_Button2Truncate" size="large" />
+        </group>
+        <group id="MyConfiguration_Group1" caption="Custom Buffer" appearsOnAddInTab="false" keytip="Z1">
+          <button refID="SimpleConfiguration_Button1" size="large" />
+          <button refID="SimpleConfiguration_Button1Truncatecs" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <button id="SimpleConfiguration_Button1" caption="Custom Buffer" className="Button1" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="/Images/GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">
+            Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="SimpleConfiguration_Button2" caption="100 Mile Buffer" className="Button2" loadOnClick="true" smallImage="Images\GenericButtonRed16.png" largeImage="/Images/GenericButtonRed32.png">
+          <tooltip heading="Tooltip Heading">
+            Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="SimpleConfiguration_Button3" caption="60 Mile Buffer" className="Button3" loadOnClick="true" smallImage="Images\GenericButtonPurple16.png" largeImage="/Images/GenericButtonPurple32.png">
+          <tooltip heading="Tooltip Heading">
+            Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="SimpleConfiguration_Button1Truncatecs" caption="Clear Custom Buffer" className="Button1Truncatecs" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="/Images/GenericButtonBlue32.png">
+          <tooltip heading="Tooltip Heading">
+            Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="SimpleConfiguration_Button2Truncate" caption="Clear 100 Mile Buffer" className="Button2Truncate" loadOnClick="true" smallImage="Images\GenericButtonRed16.png" largeImage="/Images/GenericButtonRed32.png">
+          <tooltip heading="Tooltip Heading">
+            Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="SimpleConfiguration_Button3Truncate" caption="Clear 60 Mile Buffer" className="Button3Truncate" loadOnClick="true" smallImage="Images\GenericButtonPurple16.png" largeImage="/Images/GenericButtonPurple32.png">
+          <tooltip heading="Tooltip Heading">
+            Tooltip text<disabledText /></tooltip>
+        </button>
+        <button id="SimpleConfiguration_select" caption="select" className="select" loadOnClick="true" smallImage="Images\GenericButtonBlue16.png" largeImage="Images\carWheel.png">
+          <tooltip heading="Tooltip Heading">Select Tool<disabledText /></tooltip>
+        </button>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>

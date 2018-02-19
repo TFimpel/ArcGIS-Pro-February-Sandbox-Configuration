@@ -1,0 +1,16 @@
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\bin\Debug\SimpleConfiguration.dll
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\bin\Debug\SimpleConfiguration.pdb
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\SimpleConfiguration.csprojResolveAssemblyReference.cache
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\UI\SplashScreen.g.cs
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\UI\AboutPage.g.cs
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\UI\StartPage.g.cs
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\SimpleConfiguration_MarkupCompile.cache
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\SimpleConfiguration_MarkupCompile.lref
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\UI\SplashScreen.baml
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\UI\AboutPage.baml
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\UI\StartPage.baml
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\SimpleConfiguration.g.resources
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\SimpleConfiguration.csproj.CoreCompileInputs.cache
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\SimpleConfiguration.dll
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\SimpleConfiguration\SimpleConfiguration\obj\Debug\SimpleConfiguration.pdb
